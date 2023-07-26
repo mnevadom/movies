@@ -3,6 +3,7 @@ icon: https://apps.okteto.com/movies/icon.png
 build:
   frontend:
     context: frontend
+    image: okteto.dev/frontend:okteto
   frontend-dev:
     context: frontend
     target: dev
